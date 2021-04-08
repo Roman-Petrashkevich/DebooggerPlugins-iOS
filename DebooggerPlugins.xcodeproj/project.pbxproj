@@ -8,13 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		3664CD9A260C80FC003F7673 /* Deboogger.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3664CD96260C80FC003F7673 /* Deboogger.xcframework */; };
-		3664CD9B260C80FC003F7673 /* Deboogger.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3664CD96260C80FC003F7673 /* Deboogger.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3664CD9C260C80FC003F7673 /* Framezilla.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3664CD97260C80FC003F7673 /* Framezilla.xcframework */; };
-		3664CD9D260C80FC003F7673 /* Framezilla.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3664CD97260C80FC003F7673 /* Framezilla.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3664CD9E260C80FC003F7673 /* Base.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3664CD98260C80FC003F7673 /* Base.xcframework */; };
-		3664CD9F260C80FC003F7673 /* Base.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3664CD98260C80FC003F7673 /* Base.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3664CDA0260C80FC003F7673 /* TouchVisualizer.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3664CD99260C80FC003F7673 /* TouchVisualizer.xcframework */; };
-		3664CDA1260C80FC003F7673 /* TouchVisualizer.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3664CD99260C80FC003F7673 /* TouchVisualizer.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		OBJ_26 /* BaseURLDebooggerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_8 /* BaseURLDebooggerPlugin.swift */; };
 		OBJ_27 /* DebooggerConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* DebooggerConstants.swift */; };
 		OBJ_28 /* DeviceTokenDebooggerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* DeviceTokenDebooggerPlugin.swift */; };
@@ -26,23 +22,6 @@
 		OBJ_34 /* SetSomethingToDefaultDebooggerPlugin.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* SetSomethingToDefaultDebooggerPlugin.swift */; };
 		OBJ_41 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		3664CDA2260C80FC003F7673 /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				3664CD9F260C80FC003F7673 /* Base.xcframework in Embed Frameworks */,
-				3664CD9D260C80FC003F7673 /* Framezilla.xcframework in Embed Frameworks */,
-				3664CD9B260C80FC003F7673 /* Deboogger.xcframework in Embed Frameworks */,
-				3664CDA1260C80FC003F7673 /* TouchVisualizer.xcframework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3664CD96260C80FC003F7673 /* Deboogger.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = Deboogger.xcframework; path = Carthage/Build/Deboogger.xcframework; sourceTree = "<group>"; };
@@ -149,7 +128,6 @@
 			buildPhases = (
 				OBJ_25 /* Sources */,
 				OBJ_35 /* Frameworks */,
-				3664CDA2260C80FC003F7673 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
