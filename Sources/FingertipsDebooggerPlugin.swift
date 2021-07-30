@@ -4,6 +4,7 @@
 
 import Deboogger
 import TouchVisualizer
+import UIKit
 
 /// [Deboogger](https://github.com/rosberry/Deboogger) plugin that is used to visualize
 /// all the touches and gestures via [TouchVisualizer](https://github.com/rosberry/TouchVisualizer)
