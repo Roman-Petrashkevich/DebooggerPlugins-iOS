@@ -1,4 +1,4 @@
 github "Rosberry/Deboogger" "0.12"
-github "Rosberry/Framezilla" "5.1.0"
-github "rosberry/Base-iOS" "1.1.0"
-github "rosberry/TouchVisualizer" "5510a4007ea51a476d510cc7f06982529425693a"
+github "Rosberry/Framezilla" "5.1.2"
+github "rosberry/Base-iOS" "1.1.1"
+github "rosberry/TouchVisualizer" "034ab0c4c7396ab98ee8586ceef043ed3ae275cc"
